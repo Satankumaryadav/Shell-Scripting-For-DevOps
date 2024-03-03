@@ -33,9 +33,9 @@ required_restarts() {
     }
 
     # Uncomment the following lines if needed:
-    # sudo systemctl enable docker
-    # sudo systemctl enable nginx
-    # sudo systemctl restart docker
+    sudo systemctl enable docker
+    sudo systemctl enable nginx
+    sudo systemctl restart docker
 }
 
 # Function to deploy the Django app
